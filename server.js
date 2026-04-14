@@ -83,7 +83,7 @@ app.get('/', (req, res) => {
     <main class="main-content">
       <div class="welcome">
         <h1>Welcome to Markdown Viewer</h1>
-        <img src="/samuel2006_nobg.png" alt="Logo"/>
+        <img src="/samuel2006_nobg.png" alt="Samuel 2006 Pic"/>
         <p>Select a markdown file from the sidebar to view its contents.</p>
         <div class="stats">
           <p><strong>${files.length}</strong> markdown file${files.length !== 1 ? 's' : ''} available</p>
