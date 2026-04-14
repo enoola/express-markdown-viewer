@@ -1,0 +1,17 @@
+{
+  "name": "markdown-viewer",
+  "version": "1.0.0",
+  "description": "A simple web app to view markdown files",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["markdown", "viewer", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "marked": "^18.0.0"
+  }
+}
